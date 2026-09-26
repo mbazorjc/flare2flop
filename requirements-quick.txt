@@ -1,4 +1,4 @@
-# Quick route (reproduce_quick.sh): regenerate every table and figure from the archived results.
+# Quick route 
 numpy>=1.24
 pandas>=2.0
 matplotlib>=3.7
