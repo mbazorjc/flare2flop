@@ -1,0 +1,153 @@
+FACILITY_ID,Temp_degC,Thermal MWh/hr,FINAL_NAICS_CODE,Electric_MW,Country
+DC_Lagos_RC_LGS1,0,0,999999,1.5,Nigeria
+DC_Lagos_LKK2,0,0,999999,2.0,Nigeria
+DC_Lagos_LKK2,0,0,999999,2.0,Nigeria
+DC_Lagos_DR_LOS2,0,0,999999,1.0,Nigeria
+DC_Lagos_ADC_LOS1,0,0,999999,20.65,Nigeria
+DC_Lagos_MTN_Ojota,0,0,999999,10.0,Nigeria
+DC_Lagos_Equinix_LG1,0,0,999999,7.5,Nigeria
+DC_Lagos_DR_LOS1,0,0,999999,0.2,Nigeria
+DC_Lagos_INQ_Digital,0,0,999999,4.0,Nigeria
+DC_Lagos_RC_LGS2,0,0,999999,12.0,Nigeria
+DC_Lagos_Nxtra,0,0,999999,34.0,Nigeria
+DC_Lagos_MTN_Sifiso,0,0,999999,20.0,Nigeria
+DC_Lagos_NTT_VI,0,0,999999,0.2,Nigeria #not specified
+DC_Lagos_Equinix_LG3,0,0,999999,1.22,Nigeria #not specified(610sq.m * 2kW/sq.m)
+DC_Lagos_Kasi_LOS1,0,0,999999,100.0,Nigeria
+DC_Lagos_Equinix_LG2,0,0,999999,1.228,Nigeria #not specified(644sq.m * 2kW/sq.m)
+DC_Lagos_Fringe_Africa,0,0,999999,1.0,Nigeria
+DC_Lagos_Excelsimo_gbagada,0,0,999999,0.2,Nigeria  #not specified
+DC_Lagos_MTN_Ikoyi,0,0,999999,0.0,Nigeria # not specified
+DC_Lagos_ipNX,0,0,999999,0.0,Nigeria # not specified
+DC_Lagos_OADC_LOS1,0,0,999999,26.0,Nigeria 
+DC_IjebuOde_Tetracore_,0,0,999999,20.0,Nigeria 
+DC_Abuja_OADC_LOS1,0,0,999999,26.0,Nigeria 
+DC_Abuja_GalaxyBB_FCT,0,0,999999,2.0,Nigeria 
+DC_Abuja_Layer3_FCT,0,0,999999,0.0,Nigeria  # not specified 
+DC_Kano_GalaxyBB_KAN,0,0,999999,0.0,Nigeria #not specified
+DC_Joburg_GDC_NTT,0,0,999999,12.0,South Africa
+DC_Joburg_Equinix_JN1,0,0,999999,4.0,South Africa
+DC_Joburg_ADC_,0,0,999999,20.0,South Africa
+DC_Joburg_ADC_JHB2,0,0,999999,10.0,South Africa
+DC_Joburg_BCX_,0,0,999999,1.0,South Africa
+DC_Joburg_Teraco_JB3,0,0,999999,19.4,South Africa
+DC_Joburg_Teraco_JB2,0,0,999999,12.9,South Africa
+DC_Joburg_Telkom_BCX,0,0,999999,0.48,South Africa
+DC_Joburg_Telkom_BCXcenturion,0,0,999999,1.8,South Africa
+DC_Joburg_BCX_NDC2,0,0,999999,1.4,South Africa
+DC_Joburg_Tetraco_JB1,0,0,999999,10.5,South Africa
+DC_Joburg_Xneelo_Samrand,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_NewTelco_Midrand,0,0,999999,1.05,South Africa  #not specified (150sq.m * 7kW/sq.m)
+DC_Joburg_Tetraco_JB5,0,0,999999,30.0,South Africa
+DC_Joburg_Vantage_JNB2,0,0,999999,20.0,South Africa
+DC_Joburg_Vantage_JNB1,0,0,999999,80.0,South Africa
+DC_Joburg_Imagine_IPS,0,0,999999,0.0,South Africa #not specified
+DC_Joburg_OADC_JNB1,0,0,999999,0.0,South Africa #not specified
+DC_Joburg_Reflex_Kent,0,0,999999,0.0,South Africa #not specified
+DC_Joburg_Tetraco_JB4,0,0,999999,80.0,South Africa
+DC_Joburg_Xneelo_Samrand2,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_MTN_Fairlands,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_MTN_Randburg,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_MTN_Doornforntein,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_Eskom_Simmerpan,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_BCX_CrownMines,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_Eskom_Sandton,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_MTN_Newlands,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_Cosmas_Samrand,0,0,999999,200.0,South Africa  
+DC_Joburg_Telemedia_Rivonia,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_Vodacom_Midrand,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_NTT_Rosebank,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_OADC_Isando,0,0,999999,7.0,South Africa  
+DC_Joburg_Vox_Waverley,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_Liquid_Midrand,0,0,999999,0.0,South Africa  #not specified
+DC_Joburg_OADC_Bryanston,0,0,999999,0.0,South Africa  #not specified
+DC_Pretoria_DP_Centurion,0,0,999999,23.1,South Africa #not specified (1540sq.m * 15kW/sq.m)
+DC_Pretoria_Telkom_Centurion,0,0,999999,1.8,South Africa 
+DC_Pretoria_MTN_Centurion,0,0,999999,0.0,South Africa #not specified
+DC_Pretoria_ICTglobe_Centurion,0,0,999999,0.0,South Africa #not specified
+DC_Cpt_ADC_Center,0,0,999999,10.0,South Africa 
+DC_Cpt_Tetraco_CT1,0,0,999999,2.6,South Africa 
+DC_Cpt_Vodacom_Foreshore,0,0,999999,0.0,South Africa  # not specified
+DC_Cpt_AWS_Atlantic,0,0,999999,0.0,South Africa  # not specified
+DC_Cpt_OADC_Bree,0,0,999999,0.0,South Africa  #not specified
+DC_Cpt_RSAWEB_DC2,0,0,999999,0.0,South Africa   # not specified
+DC_Cpt_Cosmas_Cpt,0,0,999999,360.0,South Africa 
+DC_Cpt_OADC_Rondebosch,0,0,999999,3.0,South Africa 
+DC_Cpt_Vox_Newlands,0,0,999999,0.0,South Africa  #not specified
+DC_Durban_BCX_DHF1,0,0,999999,0.09,South Africa 
+DC_Durban_Tetraco_DB1,0,0,999999,1.0,South Africa 
+DC_Durban_Vodacom_Marshall,0,0,999999,0.8,South Africa 
+DC_Durban_eThekwini_Kingsburgh,0,0,999999,400.0,South Africa 
+DC_Durban_OADC_Umhlanga,0,0,999999,0.0,South Africa  #not specified
+DC_Durban_OADC_Durban,0,0,999999,4.0,South Africa 
+DC_Durban_Seacom_Mtunzini,0,0,999999,0.0,South Africa  #not specified
+DC_Stellenbosch_Technopark_Neutron,0,0,999999,0.0,South Africa  #not specified
+DC_Bloemfontein_OADC_Blmftn,0,0,999999,0.0,South Africa  #not specified
+DC_Elondon_OADC_Elondon,0,0,999999,0.0,South Africa  #not specified
+DC_PElizabeth_OADC_Gqerberha,0,0,999999,0.0,South Africa  #not specified
+DC_Nairobi_DR_NBO1,0,0,999999,0.9,Kenya 
+DC_Nairobi_DR_NBO2,0,0,999999,0.0,Kenya  # not specified
+DC_Nairobi_ADC_NB,0,0,999999,7.5,Kenya 
+DC_Nairobi_iXAfrica_NBOX1,0,0,999999,4.5,Kenya 
+DC_Nairobi_PAIX_NBO,0,0,999999,2.0,Kenya 
+DC_Nairobi_Telkom_NBO,0,0,999999,0.9,Kenya #not specified
+DC_Nairobi_Cloudoon_Machakos,0,0,999999,10.0,Kenya 
+DC_Nairobi_Safaricom_Thika,0,0,999999,0.9,Kenya  #not specified
+DC_Nairobi_Nxtra_Tatu,0,0,999999,44.0,Kenya 
+DC_Nairobi_Safaricom_NBO,0,0,999999,0.0,Kenya #not specified
+DC_Nairobi_Safaricom_Limuru,0,0,999999,2.8,Kenya
+DC_Nairobi_MTN_NBO,0,0,999999,0.0,Kenya #not specified
+DC_Nairobi_Sybyl_NBO,0,0,999999,0.0,Kenya #not specified
+DC_Nairobi_Safaricom_Kisumu,0,0,999999,0.0,Kenya #not specified
+DC_Nairobi_CloudPap_NBO,0,0,999999,0.0,Kenya #not specified
+DC_Mombasa_icolo_MBA1,0,0,999999,0.2,Kenya 
+DC_Mombasa_icolo_MBA2,0,0,999999,2.5,Kenya 
+DC_Mombasa_Telkom_MBA1,0,0,999999,0.0,Kenya #not specified
+DC_Mombasa_SEACOM_MBA,0,0,999999,0.0,Kenya #not specified
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

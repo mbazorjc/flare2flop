@@ -1,0 +1,37 @@
+key,value,unit,status,source,note
+# ---- HARD CONVENTIONS (project context STEP 3) --------------------------------,,,,,
+discount_rate,0.12,-,CONVENTION,Convention #1,Central r
+plant_life_years,25,yr,CONVENTION,Convention #1,n for CRF
+diesel_reference,300.0,$/MWhe,CONVENTION,Convention #2 / corrected-postproc.py L32,
+ef_diesel,0.70,tCO2/MWhe,FILE,corrected-postproc.py L31,
+ef_nuclear,0.012,tCO2/MWhe,FILE,corrected-postproc.py L31,
+pue,1.5,-,CONVENTION,Convention #4,
+flare_penalty,3.50,$/mscf,CONVENTION,Convention #5 (PIA 2021),
+btc_block_reward,3.125,BTC/block,CONVENTION,Convention #6 (post-2024 halving),
+genset_efficiency,0.38,-,CONVENTION,Convention #7,
+community_share,0.10,-,CONVENTION,Convention #8 (range 0.10-0.15),
+export_cap,0.0,-,CONVENTION,Convention #9 / V26 L424,Behind-the-meter baseline
+# ---- DAY-2 COLLECTION ITEMS: ALL PLACEHOLDERS, NOT TRACEABLE TO ANY FILE ------,,,,
+carbon_price,50.0,$/tCO2,BENCHMARK,"World Bank HLCCP corridor lower bound for 2030 ($50-100/tCO2); value unchanged, status upgraded from PLACEHOLDER (D-04)",Article 6.4 / voluntary SSA market. Day 2.
+community_tariff,20.0,$/MWhe,OPERATOR,"Pilot operator 2026-09-18: $0.02/kWh rural mini-grid tariff (was $100 PLACEHOLDER, D-03 CLOSED)",NERC Band A/B or cost-reflective mini-grid. Day 2.
+btc_spot_price,60000.0,$/BTC,PLACEHOLDER,D-06 OPEN,CBECI / exchange series. Day 2.
+btc_difficulty,1.10e14,-,PLACEHOLDER,D-06 OPEN,Network difficulty D_t. Day 2.
+miner_efficiency,46.10,J/TH,DERIVED,"Pilot pool record 2026-09-18: measured 71.87 TH/s per worker (median of 717 days, uptime-corrected) against the published power envelope for that hashrate class (M20S/M31S/M30S/T19/S19 = 3250-3360 W, flat to 3.3%); 3313.2/71.87 = 46.10. Cross-routes 45.22 (Lal 3.25 kW) and 46.79 (interp published J/TH). D-07 CLOSED; was 17.5 PLACEHOLDER = S21-class hardware the site does not run",Fleet mix undisclosed and immaterial: power is invariant across the class.
+miner_capex,3395.0,$/unit,SUPERSEDED,Lal Table 3 AC_Miner is a new-S21 price. INCONSISTENT with this fleet: 72 TH/s per machine is 2019-2021 silicon bought second-hand. Raised as D-12 OPEN; not valid for pilot-scale capital without a quoted used price,AC_Miner. Valid only for the modern-hardware comparator.
+miner_power,3.25,kW/unit,FILE,Lal et al. Table 3,P_MAX_Miner
+gas_hhv,1037.0,Btu/scf,PLACEHOLDER,D-08 OPEN,Assoc. gas heating value. NOSDRA / operator data. Day 2.
+ef_natural_gas,53.06,kgCO2/MMBtu,PLACEHOLDER,D-08 OPEN,Combustion EF. Day 2.
+genset_capex,480.0,$/kWe,OPERATOR,"60% of global standard per operator 2026-09-18 (was 800 PLACEHOLDER, D-09)",Recip gas genset overnight cost. Barrels deck / vendor quote. Day 2.
+genset_fopex,24.0,$/kWe-yr,OPERATOR,"60% of global standard per operator 2026-09-18 (was 40 PLACEHOLDER, D-09)",
+genset_vom_fc,3.0,$/MWhe,OPERATOR,"60% of global standard per operator 2026-09-18 (was 5 PLACEHOLDER, D-09)",Fuel is free (flare gas); this is VOM only.
+compute_price,120.0,$/MWhe-IT,PLACEHOLDER,D-10 OPEN,AI/HPC colocation price. Day 2.
+re_capex,1100.0,$/kWe,PLACEHOLDER,D-11 OPEN,Solar PV overnight. Day 2.
+re_fopex,22.64,$/kW-yr,FILE,Lal et al. Table 3,opfac_solar
+re_capacity_factor,0.20,-,PLACEHOLDER,D-11 OPEN,SSA solar CF. Day 2.
+# ---- WORKED-EXAMPLE / BRIEF-SUPPLIED (not file-traceable) --------------------,,,,,
+capacity_factor,0.95,-,PLACEHOLDER,Prompt-0 brief,"Paper 1 uses a fixed reliability margin, not an outage model."
+genset_capacity_factor,0.5468,-,MEASURED,"dailystats_2026-09-18.csv, mean of 718 daily uptime records 2024-09-21..2026-09-17 (was 0.90 PLACEHOLDER, D-09 CLOSED)",
+site_2mw_capacity,2.0,MWe,FILE,Barrels to Bitcoin-Delta4.pdf,"2 MW operational site, southern Nigeria"
+btc_realisation_factor,0.9744,-,MEASURED,"dailystats_2026-09-18.csv: realised BTC / (hashrate x hashprice) over 718 days; share loss 1.73% + pool fee (NOVEL, E31 gross-to-net)",
+btc_hashprice_measured,46.15,$/PH/s/day,MEASURED,"dailystats_2026-09-18.csv, median of 717 days. Last observation $37.61; IQR $35.93-54.23. CROSS-CHECK for the (btc_spot_price, btc_difficulty) pair, not a replacement: the model must project difficulty growth, which one hashprice cannot do",Collapses BTC price; difficulty; reward; fees and pool efficiency into one measured number.
+site_capex_factor,0.60,-,OPERATOR,Operator 2026-09-18: capex and opex for SETTING UP THE 2 MW SITE are about 60% of global standard. Scope confirmed 2026-09-18 = flare genset and balance of plant ONLY. NOT applied to renewables (D-11 stands at global standard) and NOT to SMR capital (hard convention 11),Already applied to genset_capex; genset_fopex; genset_vom_fc.
